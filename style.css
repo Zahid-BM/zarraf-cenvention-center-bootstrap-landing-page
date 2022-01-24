@@ -17,4 +17,19 @@ body{
                  common custom CSS ends
 *****************************************
         ####################################  */
+@media (max-width:576px) {
+
+     .carousel-caption h5{
+             font-size: 1em;
+     }
+     .carousel-caption p{
+             font-size: 0.5em !important;
+     }
+      .carousel-caption .btn {
+             font-size: 0.5em !important;
+     }
+    
+    
+     }
+
 
