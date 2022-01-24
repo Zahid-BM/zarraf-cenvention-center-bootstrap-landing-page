@@ -100,10 +100,10 @@ body{
 
   /* ###################################
                   ******************************
-                 Media query starts
+                 Media query for mobile starts
 *****************************************
         ####################################  */
-@media (max-width:576px) {
+@media (max-width:991px) {
 
 .container-fluid .navbar-brand{
         font-size: 1em !important;
@@ -182,10 +182,11 @@ body{
         padding-top: 30px;
         color: #FF8E00;
         margin-top: 28px;
+         position: relative;
 
      }
 .badge{
-        bottom: 400px;
+        bottom: 40px;
 }
 .hot .btn{
       margin-top: 10px;
@@ -193,6 +194,108 @@ body{
 }
 
 
+}
+  /* ###################################
+                  ******************************
+                 Media query for mobile ends
+*****************************************
+        ####################################  */
+
+
+        /* *************************************************************** */
+
+
+  /* ###################################
+                  ******************************
+                 Media query for larger device strats
+*****************************************
+        ####################################  */
+
+
+@media  (min-width:992px) {
+
+ /* ###################################
+                  ******************************
+                 Current package part starts
+*****************************************
+        ####################################  */
+     
+.current-package{
+       padding-left: 100px;
+        padding-right: 100px;
+       
+        margin-bottom: 80px;
+        margin-top: 130px;
+}
+.current-package h2{
+        margin-bottom: 100px;
+}
+.all-package{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr );
+        height: 700px;
+        grid-column-gap: 34px ;
+        margin-top: 60px;
+       
+}
+.package{
+        padding-left: 0;
+}
+     .package-list{
+             list-style: none;
+             margin-left: 0;
+             font-size: 15px;
+             font-weight: 400;
+     }
+     
+  .item a{
+          text-decoration: none;
+          color:
+  }
+  .item h3 {
+      font: 36px;
+      font-weight: 700;   
+      margin-bottom: 30px; 
+  }
+  .item h4{
+         font: 28px;
+      font-weight: 700; 
+  }
+  .item p{
+          font-size: 15px;
+          font-weight: 400;
+  }
+  .item{
+      
+        height: 387px;
+        padding-top: 100px;
+        padding-left: 10px;
+  }
+  .hot{
+         background-image: linear-gradient(#FFFDDE, #FFF89A);
+        
+        height: 540px;
+        box-shadow: 0px 42px 34px rgba(218, 203, 75, 0.25);
+        border-radius: 26px;
+        padding-left: 10px;
+        padding-top: 30px;
+        color: #FF8E00;
+        position: relative;
+  }
+
+.hot .btn{
+      margin-top: 10px;
+      margin-left: 15px;
+     
+}
+.badge{
+        bottom: 515px;
+}
+ /* ###################################
+                  ******************************
+                 Current package part ends
+*****************************************
+        ####################################  */
 
 
 
@@ -215,4 +318,11 @@ body{
 
 
 
+
+
+
+
+
+
+        
 }
