@@ -103,7 +103,7 @@ body{
                  Media query for mobile starts
 *****************************************
         ####################################  */
-@media (max-width:991px) {
+@media (max-device-width:991px) {
 
 .container-fluid .navbar-brand{
         font-size: 1em !important;
