@@ -32,4 +32,70 @@ body{
     
      }
 
-
+.current-package{
+       padding-left: 80px;
+        padding-right: 80px;
+       
+        margin-bottom: 80px;
+        margin-top: 130px;
+}
+.current-package h2{
+        margin-bottom: 100px;
+}
+.all-package{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        height: 700px;
+        grid-column-gap: 34px ;
+        margin-top: 60px;
+       
+}
+.package{
+        padding-left: 0;
+}
+     .package-list{
+             list-style: none;
+             margin-left: 0;
+             font-size: 15px;
+             font-weight: 400;
+     }
+     
+  .item a{
+          text-decoration: none;
+          color:
+  }
+  .item h3 {
+      font: 36px;
+      font-weight: 700;    
+  }
+  .item h4{
+         font: 28px;
+      font-weight: 700; 
+  }
+  .item p{
+          font-size: 15px;
+          font-weight: 400;
+  }
+  .item{
+        width: 232px;
+        height: 387px;
+        padding-top: 100px;
+        padding-left: 10px;
+  }
+  .hot{
+         background-color: #3F87F5;
+         color: aliceblue;
+         width: 292px;
+        height: 470px;
+        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        border-radius: 26px;
+        padding-left: 30px;
+        padding-top: 30px;
+  }
+.hot .btn{
+      margin-top: 39px;
+      margin-left: 15px;
+}
+.badge{
+        bottom: 395px;
+}
