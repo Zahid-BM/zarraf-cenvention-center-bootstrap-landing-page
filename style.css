@@ -13,26 +13,12 @@ body{
     background-image: linear-gradient(#E7FBBE,#FBFFE2);
 }
 
-  /* ###################################
+ /* ###################################
                   ******************************
-                 common custom CSS ends
+                 Current package part starts
 *****************************************
         ####################################  */
-@media (max-width:576px) {
-
-     .carousel-caption h5{
-             font-size: 1em;
-     }
-     .carousel-caption p{
-             font-size: 0.5em !important;
-     }
-      .carousel-caption .btn {
-             font-size: 0.5em !important;
-     }
-    
-    
-     }
-
+     
 .current-package{
        padding-left: 80px;
         padding-right: 80px;
@@ -100,3 +86,76 @@ body{
 .badge{
         bottom: 395px;
 }
+ /* ###################################
+                  ******************************
+                 Current package part ends
+*****************************************
+        ####################################  */
+
+
+/* ******************************************************************** */
+
+  /* ###################################
+                  ******************************
+                 Media query starts
+*****************************************
+        ####################################  */
+@media (max-width:576px) {
+
+
+         /* ###################################
+                  ******************************
+                 Carousel-caption part starts
+*****************************************
+        ####################################  */
+
+     .carousel-caption h5{
+             font-size: 1em;
+     }
+     .carousel-caption p{
+             font-size: 0.5em !important;
+     }
+      .carousel-caption .btn {
+             font-size: 0.5em !important;
+     }
+    .all-package{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+    }
+    
+
+         /* ###################################
+                  ******************************
+                 Package part starts
+*****************************************
+        ####################################  */
+
+    
+.current-package{
+       padding-left: 20px;
+       
+       
+        margin-bottom: 80px;
+        margin-top: 50px;
+}
+.current-package h2{
+        margin-bottom: 10px;
+}
+.all-package{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 700px;
+        grid-column-gap: 34px ;
+        margin-top: 60px;
+       
+}
+
+
+
+
+        
+
+
+
+
+     }
