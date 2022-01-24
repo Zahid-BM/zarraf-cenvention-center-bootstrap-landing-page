@@ -102,7 +102,9 @@ body{
         ####################################  */
 @media (max-width:576px) {
 
-
+.container-fluid .navbar-brand{
+        font-size: 1em !important;
+}
          /* ###################################
                   ******************************
                  Carousel-caption part starts
@@ -140,22 +142,66 @@ body{
 }
 .current-package h2{
         margin-bottom: 10px;
+        padding-bottom: 0;
+       
 }
 .all-package{
         display:grid;
         grid-template-columns: repeat(1, 1fr);
         height: 700px;
         grid-column-gap: 34px ;
-        margin-top: 60px;
+        margin-top: 10px;
        
+}
+
+ .item{
+        width: 232px;
+        height: 387px;
+        padding-top: 30px;
+        padding-left: 10px;
+  }
+
+ .hot{
+         background-image: linear-gradient(#FFFDDE, #FFF89A);
+         width: 275px;
+        height: 430px;
+        box-shadow: 0px 42px 34px rgba(218, 203, 75, 0.25);
+        border-radius: 26px;
+        padding-left: 10px;
+        padding-top: 30px;
+        color: #FF8E00;
+        margin-top: 28px;
+
+     }
+.badge{
+        bottom: 375px;
+}
+.hot .btn{
+      margin-top: 15px;
+      margin-left: 0;
 }
 
 
 
 
-        
 
 
 
 
-     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
