@@ -10,6 +10,7 @@
                             
 body{
     font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(#E7FBBE,#FBFFE2);
 }
 
   /* ###################################
@@ -83,14 +84,14 @@ body{
         padding-left: 10px;
   }
   .hot{
-         background-color: #3F87F5;
-         color: aliceblue;
+         background-image: linear-gradient(#FFFDDE, #FFF89A);
          width: 292px;
         height: 470px;
-        box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+        box-shadow: 0px 42px 34px rgba(218, 203, 75, 0.25);
         border-radius: 26px;
         padding-left: 30px;
         padding-top: 30px;
+        color: #FF8E00;
   }
 .hot .btn{
       margin-top: 39px;
