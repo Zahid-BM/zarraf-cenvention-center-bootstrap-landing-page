@@ -23,18 +23,18 @@ body{
        padding-left: 100px;
         padding-right: 100px;
        
-        margin-bottom: 80px;
+        margin-bottom: 120px;
         margin-top: 130px;
 }
 .current-package h2{
-        margin-bottom: 100px;
+        margin-bottom: 70px;
 }
 .all-package{
         display:grid;
         grid-template-columns: repeat(4, 1fr );
         height: 500px;
         grid-column-gap: 34px ;
-        margin-top: 60px;
+        margin-top: 30px;
        
 }
 .package{
@@ -140,7 +140,7 @@ body{
        padding-left: 20px;
        
        
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         margin-top: 50px;
 }
 .current-package h2{
@@ -224,18 +224,18 @@ body{
        padding-left: 100px;
         padding-right: 100px;
        
-        margin-bottom: 80px;
-        margin-top: 130px;
+        margin-bottom: 170px;
+        margin-top: 80px;
 }
 .current-package h2{
-        margin-bottom: 100px;
+        margin-bottom: 70px;
 }
 .all-package{
         display:grid;
         grid-template-columns: repeat(4, 1fr );
         height: 500px;
         grid-column-gap: 34px ;
-        margin-top: 60px;
+        margin-top: 30px;
        
 }
 .package{
