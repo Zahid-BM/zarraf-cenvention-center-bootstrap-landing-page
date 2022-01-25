@@ -18,77 +18,29 @@ body{
                  Current package part starts
 *****************************************
         ####################################  */
-     
-.current-package{
-       padding-left: 100px;
-        padding-right: 100px;
-       
-        margin-bottom: 120px;
-        margin-top: 130px;
-}
-.current-package h2{
-        margin-bottom: 70px;
-}
-.all-package{
-        display:grid;
-        grid-template-columns: repeat(4, 1fr );
-        height: 500px;
-        grid-column-gap: 34px ;
-        margin-top: 30px;
-       
-}
-.package{
-        padding-left: 0;
-}
-     .package-list{
-             list-style: none;
-             margin-left: 0;
-             font-size: 15px;
-             font-weight: 400;
-     }
-     
-  .item a{
-          text-decoration: none;
-          color:
-  }
-  .item h3 {
-      font: 36px;
-      font-weight: 700;   
-      margin-bottom: 30px; 
-  }
-  .item h4{
-         font: 28px;
-      font-weight: 700; 
-  }
-  .item p{
-          font-size: 15px;
-          font-weight: 400;
-  }
-  .item{
-      
-        height: 387px;
-        padding-top: 100px;
-        padding-left: 10px;
-  }
-  .hot{
-         background-image: linear-gradient(#FFFDDE, #FFF89A);
-        
-        height: 500px;
+        .package-section{
+                margin-bottom: 10%;
+        }
+ 
+.hot-package-div {
+        background-image: linear-gradient(#FFFDDE, #FFF89A);
         box-shadow: 0px 42px 34px rgba(218, 203, 75, 0.25);
         border-radius: 26px;
-        padding-left: 10px;
-        padding-top: 30px;
-        color: #FF8E00;
-  }
+        padding-left: 7%;
+        
+}
 
-.hot .btn{
-      margin-top: 25px;
-      margin-left: 15px;
-     
-}
-.badge{
-        bottom: 435px;
-}
+.package{
+        padding-left: 0;
+        }
+        .package-list{
+        list-style: none;
+        margin-left: 0;
+        font-size: 15px;
+        font-weight: 400;
+        }
+
+
  /* ###################################
                   ******************************
                  Current package part ends
@@ -170,63 +122,6 @@ body{
 *****************************************
         ####################################  */
 
-    
-.current-package{
-       padding-left: 20px;
-       
-       
-        margin-bottom: 50px;
-        margin-top: 50px;
-}
-.current-package h2{
-        margin-bottom: 10px;
-        padding-bottom: 0;
-        text-align: center;
-       
-}
-.all-package{
-        display:grid;
-        grid-template-columns: repeat(1, 1fr);
-        height: 500px;
-        grid-column-gap: 34px ;
-        margin-top: 10px;
-       
-}
-
- .item{
-        width: 232px;
-        height: 387px;
-        padding-top: 30px;
-        padding-left: 10px;
-        margin-bottom: 30px;
-  }
-  .item h3 {
-      font: 36px;
-      font-weight: 700;   
-      margin-bottom: 20px;
-
-      
-  }
- .hot{
-         background-image: linear-gradient(#FFFDDE, #FFF89A);
-         width: 255px;
-        height: 450px;
-        box-shadow: 0px 42px 34px rgba(218, 203, 75, 0.25);
-        border-radius: 26px;
-        padding-left: 10px;
-        padding-top: 30px;
-        color: #FF8E00;
-        margin-top: 28px;
-         position: relative;
-
-     }
-.badge{
-        bottom: 430px;
-}
-.hot .btn{
-      margin-top: 10px;
-      margin-left: 0;
-}
 
  /* ###################################
                   ******************************
@@ -252,134 +147,4 @@ body{
 
 
 }
-  /* ###################################
-                  ******************************
-                 Media query for mobile ends
-*****************************************
-        ####################################  */
-
-
-        /* *************************************************************** */
-
-
-  /* ###################################
-                  ******************************
-                 Media query for larger device strats
-*****************************************
-        ####################################  */
-
-
-@media  (min-width:992px) {
-
- /* ###################################
-                  ******************************
-                 Current package part starts
-*****************************************
-        ####################################  */
-     
-.current-package{
-       padding-left: 100px;
-        padding-right: 100px;
-       
-        margin-bottom: 170px;
-        margin-top: 80px;
-}
-.current-package h2{
-        margin-bottom: 70px;
-}
-.all-package{
-        display:grid;
-        grid-template-columns: repeat(4, 1fr );
-        height: 500px;
-        grid-column-gap: 34px ;
-        margin-top: 30px;
-       
-}
-.package{
-        padding-left: 0;
-}
-     .package-list{
-             list-style: none;
-             margin-left: 0;
-             font-size: 15px;
-             font-weight: 400;
-     }
-     
-  .item a{
-          text-decoration: none;
-          color:
-  }
-  .item h3 {
-      font: 36px;
-      font-weight: 700;   
-      margin-bottom: 30px; 
-  }
-  .item h4{
-         font: 28px;
-      font-weight: 700; 
-  }
-  .item p{
-          font-size: 15px;
-          font-weight: 400;
-  }
-  .item{
-      
-        height: 387px;
-        padding-top: 100px;
-        padding-left: 10px;
-  }
-  .hot{
-         background-image: linear-gradient(#FFFDDE, #FFF89A);
-        
-        height: 540px;
-        box-shadow: 0px 42px 34px rgba(218, 203, 75, 0.25);
-        border-radius: 26px;
-        padding-left: 10px;
-        padding-top: 30px;
-        color: #FF8E00;
-        position: relative;
-  }
-
-.hot .btn{
-      margin-top: 10px;
-      margin-left: 15px;
-     
-}
-.badge{
-        bottom: 515px;
-}
- /* ###################################
-                  ******************************
-                 Current package part ends
-*****************************************
-        ####################################  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-}
+ 
